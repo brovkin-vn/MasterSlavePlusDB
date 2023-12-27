@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023-12-26 15:20:28.000.337,=C:\Users\render\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023-12-26 15:24:25.000.805,C:\Users\render\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\aaa\proj\0070_New_Work\seversltal\src\test\Unit1.dfm</Transaction>
+    <Transaction>2023-12-26 15:24:25.000.805,C:\Users\render\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\aaa\proj\0070_New_Work\seversltal\src\test\Unit1.pas</Transaction>
+    <Transaction>2023-12-26 15:24:28.000.384,C:\Users\render\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\aaa\proj\0070_New_Work\seversltal\src\test\Project1.dproj</Transaction>
+    <Transaction>2023-12-26 16:08:20.000.565,=D:\aaa\proj\0070_New_Work\seversltal\src\test\LogFile.pas</Transaction>
+    <Transaction>2023-12-26 16:48:06.000.476,=D:\aaa\proj\0070_New_Work\seversltal\src\test\Unit2.pas</Transaction>
+    <Transaction>2023-12-27 05:12:51.000.905,D:\aaa\proj\0070_New_Work\seversltal\src\test\MasterSlaveDB.dproj=D:\aaa\proj\0070_New_Work\seversltal\src\test\Project1.dproj</Transaction>
+    <Transaction>2023-12-27 05:13:12.000.243,D:\aaa\proj\0070_New_Work\seversltal\src\test\MasterSlavePlusDB.dproj=D:\aaa\proj\0070_New_Work\seversltal\src\test\MasterSlaveDB.dproj</Transaction>
+    <Transaction>2023-12-27 15:48:53.000.939,D:\aaa\proj\0070_New_Work\seversltal\src\test\Model.pas=D:\aaa\proj\0070_New_Work\seversltal\src\test\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
