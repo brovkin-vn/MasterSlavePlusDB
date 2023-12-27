@@ -1,4 +1,3 @@
--- Задание 4
 with xxx as (
 	select parent_id, unit_id, parameter_count from unit_dict 
 	connect by prior unit_id = parent_id start with parent_id is null

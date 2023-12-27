@@ -17,8 +17,8 @@ var
   CS: TCriticalSection;
 
 const
-  MsgTypeStr: array [TLogFileMsgType] of string = ('Ошибка', 'Сообщение',
-    'Предупреждение');
+  MsgTypeStr: array [TLogFileMsgType] of string = ('Error', 'Info',
+    'Warn');
 
 procedure WriteLog(Message: String);
 var
@@ -77,7 +77,7 @@ try
 except
   on E: Exception do
   begin
-    ShowMessage('Ошибка инициализации модуля поддержки журнальных файлов'#13#10
+    ShowMessage('Error init log file module'#13#10
       + E.Message);
   end;
 end;
@@ -91,7 +91,7 @@ except
   on E: Exception do
   begin
     ShowMessage
-      ('Ошибка деинициализации модуля поддержки журнальных файлов'#13#10 +
+      ('Error finalization log file module'#13#10 +
       E.Message);
   end;
 end;

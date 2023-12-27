@@ -1,4 +1,3 @@
--- Задание 6
 with x as (
 select pipe_no, dt, duration, pass_id from pipes p
 inner join unit_passes u on u.matid = p.matid 

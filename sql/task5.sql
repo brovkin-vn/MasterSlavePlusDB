@@ -1,4 +1,3 @@
--- Задание 5
 with x as (
 select l.name location_name, 
   sum(u.parameter_count) over(partition by l.id) location_parameter_count,
