@@ -108,8 +108,14 @@ end;
 
 procedure TForm1.CheckBoxConnectDBClick(Sender: TObject);
 begin
+  if (Sender as TCheckBox).Checked then
+  begin
+    SQLConnection1.LoadParamsFromIniFile('dbxconnections.ini');
+  end;
+
   SQLConnection1.Connected := (Sender as TCheckBox).Checked;
   SimpleDataSet1.Active := (Sender as TCheckBox).Checked;
+
 end;
 
 procedure TForm1.ButtonSendClick(Sender: TObject);
@@ -144,8 +150,8 @@ begin
       with SQLQuery1 do
       begin
         SQL.Text :=
-          format('insert into GAS_VALUES(gas_val_id, gas_val_date, h2_val, o2_val) values(%d, TIMESTAMP ''%s'', %f, %f)',
-          [Data.N, ToS(Data.T), Data.H, Data.O]);
+          format('insert into GAS_VALUES(gas_val_id, gas_val_date, h2_val, o2_val) values(%d, TIMESTAMP ''%s'', %s, %s)',
+          [Data.N, ToS(Data.T), FloatToStr(Data.H), FloatToStr(Data.O)]);
         Log(SQL.Text);
         r := ExecSQL(True);
         Log(format('insert rows: %d', [r]));

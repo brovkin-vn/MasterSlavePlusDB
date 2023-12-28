@@ -77,8 +77,7 @@ try
 except
   on E: Exception do
   begin
-    ShowMessage('Error init log file module'#13#10
-      + E.Message);
+    ShowMessage('Error init log file module' + E.Message);
   end;
 end;
 
@@ -90,9 +89,7 @@ try
 except
   on E: Exception do
   begin
-    ShowMessage
-      ('Error finalization log file module'#13#10 +
-      E.Message);
+    ShowMessage('Errlr finilization log file module' + E.Message);
   end;
 end;
 

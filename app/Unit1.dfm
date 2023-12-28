@@ -37,8 +37,6 @@ object Form1: TForm1
     Height = 41
     Align = alTop
     TabOrder = 1
-    ExplicitLeft = -8
-    ExplicitTop = -4
     object CheckBoxStart: TCheckBox
       Left = 9
       Top = 12
